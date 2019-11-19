@@ -1,6 +1,6 @@
 {
   "name": "md2ml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A commend line interface for generate static blog easy",
   "main": "lib/md2ml",
   "scripts": {
