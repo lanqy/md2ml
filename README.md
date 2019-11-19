@@ -12,7 +12,9 @@ npm i -g md2ml
 md2ml i
 ```
 
-Create a new post(new-post.md) with author jack
+### Create a new post
+
+Create new-post.md with author jack
 
 ```text
 md2ml create -f 'new-post.md' -a 'jack'
