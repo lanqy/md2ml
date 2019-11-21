@@ -1,6 +1,6 @@
 # md2ml
 A commend line interface for generate static blog easy
-## Installation
+## Install
 ```text
 npm i -g md2ml
 ```
@@ -12,12 +12,26 @@ npm i -g md2ml
 md2ml i
 ```
 
-### Create a new post
+### Create new post
 
 Create new-post.md with author jack
 
 ```text
 md2ml create -f 'new-post.md' -a 'jack'
+```
+
+### Create new page
+
+Create page.md with author jack
+
+```text
+md2ml create -p 'new-post.md' -a 'jack'
+```
+
+### Help
+
+```text
+md2ml -h
 ```
 
 ### build into html
